@@ -1,0 +1,229 @@
+/* CSS reset config */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background-color: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+/* Container */
+.container {
+  background-color: aliceblue;
+  margin: 1rem 2rem 2rem 1rem;
+  padding: 1rem;
+  width: 45%;
+}
+
+/* App */
+.app {
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Timer */
+.timer {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+.valueTimer {
+  font-size: 50px;
+  margin-bottom: 0.3rem;
+}
+
+/* Tasks and buttons*/
+.taskBtn {
+  border: none;
+  padding: 0.5rem;
+  color: white;
+  background-color: rgb(10, 10, 105);
+  border-radius: 5px;
+}
+
+.tasks {
+  margin-top: 0.3rem;
+  padding: 0.5rem;
+  border: none;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.start-button {
+  border: none;
+  padding: 0.5rem;
+  color: white;
+  background-color: rgb(10, 10, 105);
+  border-radius: 5px;
+  margin: 0.5rem 0 0.3rem 0;
+  width: 100px;
+}
+
+.title {
+  margin-top: 0.5rem;
+}
+
+.completed {
+  color: chartreuse;
+  margin-top: 0.5rem;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.task .completed {
+  display: flex;
+  align-items: center;
+}
+
+/* Form Tasks */
+.formTask {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.formTask input[type="text"] {
+  border: solid 1px lightgray;
+  padding: 0.5rem;
+  width: 60%;
+  margin-right: 0.5rem;
+}
+
+.formTask input[type="submit"] {
+  border: none;
+  padding: 0.5rem;
+  color: white;
+  background-color: rgb(10, 10, 105);
+  border-radius: 5px;
+}
