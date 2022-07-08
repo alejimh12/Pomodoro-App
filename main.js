@@ -60,7 +60,7 @@ function renderTasks() {
     });
   });
 }
-
+//Se agregó un timer de 5 segundos para prueba, pero lo ideal son 30 minutos
 function startButtonHandler(id) {
   time = 5;
   current = id;
